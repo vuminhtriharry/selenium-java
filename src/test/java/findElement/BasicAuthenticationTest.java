@@ -9,5 +9,6 @@ public class BasicAuthenticationTest {
     void loginWithValidCredentials(){
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/basic_auth");
+        driver.quit();
     }
 }
