@@ -1,0 +1,14 @@
+<suite name="Form authentication">
+    <test name="run on chrome browser">
+        <parameter name="browserName" value="chrome"/>
+            <classes>
+                <class name="testcases.LoginTest"/>
+            </classes>
+    </test>
+    <test name="run on firefox browser">
+        <parameter name="browserName" value="firefox"/>
+            <classes>
+                <class name="testcases.LoginTest"/>
+            </classes>
+    </test>
+</suite>
