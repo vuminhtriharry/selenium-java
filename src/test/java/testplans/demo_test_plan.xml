@@ -1,0 +1,23 @@
+<suite name="Smoke test suite">
+    <test name="chrome browser">
+            <classes>
+                <class name="findElement.TestNgDemo"/>
+            </classes>
+    </test>
+    <test name="firefox browser">
+        <classes>
+            <class name="findElement.TestNgDemo"/>
+        </classes>
+    </test>
+    <test name="ie browser">
+        <classes>
+            <class name="findElement.TestNgDemo"/>
+        </classes>
+    </test>
+    <test name="safari browser">
+        <classes>
+            <class name="findElement.TestNgDemo"/>
+        </classes>
+    </test>
+
+</suite>
